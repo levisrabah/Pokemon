@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Fetcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pokémon Fetcher</h1>
+        <div class="content">
+            <div class="pokemon-list">
+                <select id="pokemonSelect">
+                    <!-- Pokémon names will be dynamically populated here -->
+                </select>
+            </div>
+            <div class="sprite-container">
+                <img src="" alt="Pokemon Sprite" id="pokemonSprite" style="display: none">
+            </div>
+        </div>
+        <button onclick="fetchPokemon()">Fetch Pokémon</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
